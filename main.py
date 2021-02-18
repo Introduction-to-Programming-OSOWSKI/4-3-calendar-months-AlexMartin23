@@ -1,4 +1,4 @@
-def calender(m):
+def calendar(m):
     for i in range (0, 12):
         if m == mounths[i]:
             return i + 1
@@ -8,4 +8,4 @@ def calender(m):
 
 mounths = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"]
 
-print(calender("hello"))
+print(calendar("hello"))
