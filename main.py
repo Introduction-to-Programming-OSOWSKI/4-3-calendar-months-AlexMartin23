@@ -2,7 +2,7 @@ def calendar(m):
     for i in range (0, 12):
         if m == mounths[i]:
             return i + 1
-    return m + " is not a mounth"
+    return m + " is not a month"
 
 
 
